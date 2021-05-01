@@ -15,5 +15,9 @@ const URLgenerator = (text) => {
 const translate = (text) => {
   fetch(URLgenerator(text))
     .then((res) => res.json())
-    .then((resJSON) => (output.innerText = resJSON.contents.translated));
+    .then((resJSON) => (output.innerText = resJSON.contents.translated))
+    .catch(
+      (err) =>
+        (output.innerText = 'This API is ratelimited. Try again after an hour.')
+    );
 };
