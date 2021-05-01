@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&family=Indie+Flower&display=swap');
+
+:root {
+  --primary-color: #F9CE44;
+  --secondary-color: #4E7E9E;
+}
+
+body {
+  margin: 0px;
+  background-color: var(--primary-color);
+  font-family: 'Indie Flower', cursive;
+}
+#header {
+  background-color: var(--primary-color);
+  font-size: 5vw;
+  color: var(--secondary-color);
+  /* color: white; */
+  margin: 0px;
+  text-align: center;
+}
+
+#intro {
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-bottom: 3vh;
+  font-size: 2vw;
+
+  color: var(--secondary-color);
+  /* color: white; */
+  text-align: center;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 2vh;
+}
+textarea {
+  width: 40vw;
+  height: 15vh;
+}
+
+#btn-input {
+  /* background-color: #379683; */
+  font-family: 'Indie Flower', cursive;
+  font-size: 2vw;
+  font-weight: 700;
+  background-color: var(--secondary-color);
+  /* color: var(--secondary-color); */
+  color: var(--primary-color);
+  width: 20vw;
+  min-width: 70px;
+  height: 5vh;
+  border: none;
+  margin-top: 2vh;
+  margin-bottom: 4vh;
+  border-radius: 0px 25px;
+  transition: 0.5s;
+}
+
+#btn-input:hover {
+  border-radius: 25px 0px;
+  cursor: pointer;
+
+  background-color: var(--primary-color);
+  color:var(--secondary-color);
+}
+
+h2 {
+  color: var(--secondary-color);
+  /* color: white; */
+  font-size: 2vw;
+  margin-top: 0px;
+}
+
+#txt-output {
+  /* background-color: pink; */
+  width: 40vw;
+  height: 15vh;
+  border: solid black 1px;
+  background-color: white;
+  overflow: scroll;
+}
+
+footer {
+  margin-top: 2vh;
+  width: 100%;
+  background-color: #1A7AD0;
+  /* color: var(--secondary-color); */
+  color:white;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  /* height: 15vh; */
+}
+h3 {
+  font-size: 2vw;
+  margin-bottom: 0px;
+}
+p {
+  font-size: 1.3vw;
+  margin-top: 0px;
+  padding: 0vh 15vw;
+  font-weight: 600;
+}
+
+span {
+color: var(--secondary-color); 
+font-size: 2.5vw;
+font-weight: 800;
+
+}
+
+@media (max-width: 964px) {
+  #header {
+    font-size: 5vh;
+  }
+
+  #intro {
+    font-size: 2vh;
+  }
+  textarea {
+    width: 40vw;
+    height: 15vh;
+  }
+
+  #btn-input {
+    font-size: 2vh;
+  }
+
+  h2 {
+    font-size: 2.5vh;
+  }
+
+  h3 {
+    font-size: 2.5vh;
+  }
+  p {
+    font-size: 1.5vh;
+  }
+  span { 
+    font-size: 2.5vh"
+    
+    }
+}
