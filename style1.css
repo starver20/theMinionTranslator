@@ -62,9 +62,9 @@ textarea {
 #btn-input:hover {
   border-radius: 25px 0px;
   cursor: pointer;
-
   background-color: var(--primary-color);
   color:var(--secondary-color);
+  box-shadow: 5px 5px 20px 5px var(--secondary-color);
 }
 
 h2 {
